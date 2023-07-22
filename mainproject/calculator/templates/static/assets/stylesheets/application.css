@@ -1,0 +1,71 @@
+/* Add a background color to the calculator wrapper */
+#calculator-wrapper {
+  font-size: 32px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input area */
+#calculator-wrapper .uneditable-input {
+  height: 60px;
+  font-size: 36px;
+  line-height: 60px;
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Style the buttons */
+#calculator-wrapper .btn {
+  width: 20%;
+  height: 70px;
+  margin: 10px 5px;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#calculator-wrapper .btn:hover {
+  background-color: #45a049;
+}
+
+/* Center align the buttons */
+#calculator-wrapper .btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Style the clear button */
+#calculator-wrapper .clear-btn {
+  background-color: #f44336;
+}
+
+#calculator-wrapper .clear-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Add hover effect to all buttons */
+#calculator-wrapper .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Style the operator buttons differently */
+#calculator-wrapper .operator-btn {
+  background-color: #2196F3;
+}
+
+#calculator-wrapper .operator-btn:hover {
+  background-color: #1976D2;
+}
